@@ -1,0 +1,71 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+}
+li{
+  list-style-type: none;
+}
+html,body{
+  font-size: 14px;
+  color: #4D4D4D;
+  width: 100%;
+  height: 100%;
+  min-width: 1500px;
+  background: #FAFAFA;
+  text-align: center;
+  font-family: 'PingFangSC-Regular','Microsoft YaHei';
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+input{
+  outline: none;
+}
+.clearfix{
+  display: block;
+  content: '';
+  height: 0;
+  overflow: hidden;
+}
+i{
+  font-style: normal;
+}
+select{
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  /*background: url("arrow.png") no-repeat scroll right center transparent;*/
+  /*padding-right: 14px;*/
+}
+option::-ms-expand{ display: none; }
+option{
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari 和 Chrome */
+  appearance:none;
+}
+/* --背景色字体颜色--*/
+option:hover{
+  color:#fff;
+  background-color:#1E90FF;
+}
+
+/*涨是绿 跌是红*/
+.color-up {
+  color: #00B76F !important;
+}
+
+.color-down {
+  color: #F23757 !important;
+}
